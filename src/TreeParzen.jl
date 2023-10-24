@@ -19,19 +19,16 @@ include("Graph.jl")
 include("Resolve/Resolve.jl")
 include("API.jl")
 include("HP.jl")
-include("MLJTreeParzen.jl")
 
 using .API
 using .Configuration
 using .HP
 using .SpacePrint
-using .MLJTreeParzen
 
 export ask
 export Config
 export fmin
 export HP
-export MLJTreeParzen, MLJTreeParzenTuning, MLJTreeParzenSpace
 export Prob
 export provide_recommendation
 export spaceprint

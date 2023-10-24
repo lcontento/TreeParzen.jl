@@ -107,14 +107,6 @@ using Test
         include("uniform.jl")
     end
 
-    @testset "MLJ" begin
-        @info "MLJ Unit tests"
-        @test include("MLJ/unit.jl")
-
-        @info "MLJ integration"
-        @test include("MLJ/integration.jl")
-    end
-
     @info "API"
     @test include("api.jl")
 
